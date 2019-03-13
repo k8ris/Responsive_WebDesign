@@ -108,8 +108,8 @@ i {
   .about i {
     color: white; }
   .about p {
-    width: 350px;
-    padding: 1% 0%;
+    width: 100%;
+    padding: 1% 4%;
     margin: auto;
     color: white;
     padding-bottom: 3%; }
@@ -137,7 +137,7 @@ i {
     border-bottom: solid 1px #cccccc;
     margin: 5% 0%;
     padding: 5% 0%;
-    font-size: 6vw; }
+    font-size: 150%; }
   .contactMe button {
     background-color: aqua;
     border: none;
@@ -146,8 +146,7 @@ i {
 .location {
   background-color: darkslateblue;
   color: white;
-  text-align: center;
-  max-width: 1030px; }
+  text-align: center; }
   .location h4 {
     font-size: 100%;
     padding: 3%; }
@@ -163,11 +162,11 @@ i {
     border-radius: 50%;
     border: solid 1px white; }
   .location .box {
-    padding: 5% 3%; }
+    padding: 5% 0% 5% 0%; }
 
 footer {
   background-color: darkslateblue;
-  padding: 5%;
+  padding: 3% 0% 1% 0%;
   text-align: center;
   font-size: 80%;
   color: white; }
@@ -188,6 +187,13 @@ footer {
     nav .dropdown-content a {
       color: white;
       display: inline-block;
-      padding: 7px 3px; } }
+      padding: 7px 3px; }
+
+  .about p {
+    width: 35%;
+    float: left; }
+  .about div {
+    overflow: hidden;
+    padding-left: 25%; } }
 
 /*# sourceMappingURL=main.css.map */
